@@ -1,6 +1,6 @@
-#container * {
-    width: 950px;
-    height: 500px;
+#container {
+    height: 300px;
+    width: 600px;
     margin: 0px auto;
 }
 #banner {
@@ -16,52 +16,51 @@
     width: 75px;
     height: 75px;
 }
-#container .info {
+.info {
     height: 200px;
     width: 600px;
     border: lightgray solid 1px;
 }
-#container .info h2{
-    padding-top: 40px;
+.info > h2 {
+    padding-top: 20px;
     padding-left: 30px;
     font-family: helvetica;
 }
-#container .info img {
+.info > img {
     width: 10px;
     height: 18px;
     margin-left: 30px;
-    
 }
-#container .info img, h5 {
+.info img, p {
     display: inline;
     position: relative;
-    bottom: 465px;
+    bottom: 10px;
 }
-#container .info h5 {
+.info p {
     font-family: helvetica;
     font-size: 18px;
     padding-left: 5px;
     font-weight: bold;
 }
-#container .info p {
+.skills p {
     position: relative;
-    bottom: 455px;
+    bottom: 90px;
     font-family: helvetica;
     font-size: 15px;
     padding-left: 30px;
     font-weight: bold;
 }
-#container .edit img {
+.edit img {
     width: 18px;
     height: 18px;
+    margin-left: 30px;
 }
-#container .edit img, h6 {
+.edit img, h6 {
     display: inline;
-    margin-left: 205px;
     position: relative;
-    bottom: 40px;
+    bottom: 75px;
 }
-#container .edit h6 {
+.edit h6 {
     font-family: helvetica;
     font-size: 15px;
     padding-left: 5px;
